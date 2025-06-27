@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="errors"></div>
+    <div class="main-container">
+      <h2>Signup</h2>
+      <div id="divForm">
+        <input
+          placeholder="Full Name"
+          type="text"
+          name="Name"
+          id="userName"
+          required
+        />
+        <input
+          placeholder="Enter your email"
+          type="email"
+          name="email"
+          id="email"
+          required
+        />
+        <input
+          placeholder="Enter password"
+          type="password"
+          name="password"
+          id="password"
+          required
+        />
+        <input
+          placeholder="Re-enter password"
+          type="password"
+          name="password"
+          id="password"
+          required
+        />
+        <div class="chekbox">
+          <input type="checkbox" name="rememberMe" id="checkbox" required />
+          <label for="rememberMe" id="label">Remember me</label>
+        </div>
+        <button required id="btn">Signup</button>
+        <div class="liks-section">
+          <p>Already I have account.</p>
+          <a href="./basicLogginForm.html">Login</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      userName = String(document.querySelector("#userName").value);
+      if(userName == ""){
+      
+      }
+
+    </script>
+  </body>
+</html>
