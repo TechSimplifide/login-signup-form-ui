@@ -24,7 +24,8 @@ h2 {
 }
 #userName,
 #email,
-#password {
+#password,
+#password1 {
     height: 3rem;
     outline: none;
     width: 35%;
@@ -70,7 +71,7 @@ h2 {
 @media (max-width: 670px) {
   #userName,
   #email,
-  #password {
+  #password,#password1 {
     height: 3rem;
     outline: none;
     width: 78%;
