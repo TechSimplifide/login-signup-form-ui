@@ -17,7 +17,11 @@ btn.addEventListener("click", () => {
     error.style.color = "red";
     return;
   }
-  error.innerHTML = "";
+  error.innerHTML = "";  
+  if(pass.length != 8){
+    error.innerHTML = "please the password mustbe a 8 characters";
+  }
+  error.innerHTML = ""
   if (pass.value == "" && pass1.value == "") {
     error.innerHTML = "please enter password!";
     return;
